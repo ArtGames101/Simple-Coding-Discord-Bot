@@ -1,6 +1,11 @@
 # Simple-Coding-Discord-Bot
 A Discord bot which allows any normal user to created. - easy and fun. (No knowledge needed.)
 
+#### Contents:
+
+
+# Installation
+
 How to get the bot online, and to your specifications:
 
 1. Make a bot user. (https://discordapp.com/developers/applications/me)
