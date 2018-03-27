@@ -2,7 +2,7 @@
 // Simple codeing bot - To view the license, please visit the LICENSE file.
 //-----------------------------------------
 
-// LATEST UPDATE: Added help command
+// LATEST UPDATE: Added another editable custom command
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
@@ -28,6 +28,10 @@ command2text = 'I LIKE PIZZA YEA I DO' // What you want it to reply with - You c
 command3 = '' // What you do to release the response (pie would make the command [prefix]pie )
 command3text = '' // What you want it to reply with - You can use mardown (``` - `` - ** - * - __ - ~~ etc.)
 // - Custom command 3 - END
+// - Custom command 4 -
+command4 = '' // What you do to release the response (pie would make the command [prefix]pie )
+command4text = '' // What you want it to reply with - You can use mardown (``` - `` - ** - * - __ - ~~ etc.)
+// - Custom command 4 - END
 
 //This is what happens when the bot is ready.
 client.on('ready', () => {
@@ -134,8 +138,12 @@ if (message.content === (prefix + command3)) {
   message.channel.send(command3text)
 }
 
+//custom command 4
+if (message.content === (prefix + command4)) {
+  message.channel.send(command4text)
+}
+
 // all commands must be done within the brackets and this line of code: client.on('message', message => { (which can be found above)
 });
 
 client.login(token);
-
