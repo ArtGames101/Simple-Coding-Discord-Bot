@@ -1,6 +1,5 @@
 //-----------------------------------------
 // Simple codeing bot - To view the license, please visit the LICENSE file.
-// Only to be used globally on the permission of Dead4Now#3348
 //-----------------------------------------
 
 // LATEST UPDATE: Added help command
@@ -112,16 +111,6 @@ client.on('message', message => { // This is crucial, the bot won't work without
     message.channel.send('The prefix for this bot is ' + prefix);
   }
 
-// This is an embed command \/
-  if (message.content === (prefix + 'embed')) {
-    message.channel.send("This is the message!", {
-    embed: new Discord.RichEmbed()
-    .setTitle("This is the title")
-    .setDescription("This is the description")
-    .setColor("#61FF00")
-    .setFooter("This is the footer")
-    });
-  }
 
 // Here you would make another command, I will leave examples etc. in a sperate file for you too view.
 // Custom commands will be below this message.
@@ -149,3 +138,4 @@ if (message.content === (prefix + command3)) {
 });
 
 client.login(token);
+
