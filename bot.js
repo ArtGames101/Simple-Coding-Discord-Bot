@@ -1,8 +1,14 @@
 //-----------------------------------------
 // Simple codeing bot - To view the license, please visit the LICENSE file.
+// Credits:
+// - Dead4Now -
+// Github: TheExplodingGiraffe
+// Discord: Dead4Now#3348
 //-----------------------------------------
 
 // LATEST UPDATE: Added another editable custom command
+
+// P.S. When I use the doubles foward slashes that just makes the bot ignore that line.
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
@@ -146,4 +152,6 @@ if (message.content === (prefix + command4)) {
 // all commands must be done within the brackets and this line of code: client.on('message', message => { (which can be found above)
 });
 
-client.login(token);
+client.login(token); // Token config file maybe coming soon.
+
+// Part of ArtGames101.
