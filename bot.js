@@ -6,7 +6,7 @@
 // Discord: Dead4Now#3348
 //-----------------------------------------
 
-// LATEST UPDATE: Added another editable custom command
+// LATEST UPDATE: Edited the help command, so it edits to the prefix you set.
 
 // P.S. When I use the doubles foward slashes that just makes the bot ignore that line.
 
@@ -54,7 +54,7 @@ client.on('ready', () => {
 client.on('message', message => { // This is crucial, the bot won't work without this.
 
   if (message.content === (prefix + 'help')) { // This must be updated when adding new commands - Remember to remove commands here, if you remove the code from them.
-    message.channel.send("```Help!\n\n!Help - Shows this message.\n!Ping - Shows the bots ping.\n!Roll - Role a random number\n!Flip - Flip a coin\n!8ball - Ask 8ball...\n!Avatar - Get your avatar.\n!Prefix - Get the bots current prefix.\n\nThe current prefix for this bot is " + prefix + "```")
+    message.channel.send("```Help!\n\n" + prefix +"Help - Shows this message.\n" + prefix +"Ping - Shows the bots ping.\n" + prefix +"Roll - Role a random number\n" + prefix +"Flip - Flip a coin\n" + prefix +"8ball - Ask 8ball...\n" + prefix +"Avatar - Get your avatar.\n" + prefix +"Prefix - Get the bots current prefix.\n\nThe current prefix for this bot is " + prefix + "```")
   }
 
       if (message.content === prefix + 'ping') {
