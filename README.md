@@ -3,7 +3,7 @@ A Discord bot which allows any normal user to created. - easy and fun. (No knowl
 
 #### Contents:
 
-[Bot Installtion and First Run](https://github.com/ArtGames101/Simple-Coding-Discord-Bot#installation)
+[Bot Installation and First Run](https://github.com/ArtGames101/Simple-Coding-Discord-Bot#installation)
 
 [Bot Requirements](https://github.com/ArtGames101/Simple-Coding-Discord-Bot#requirements)
 
