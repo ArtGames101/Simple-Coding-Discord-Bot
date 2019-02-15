@@ -1,9 +1,9 @@
 //-----------------------------------------
-// Simple codeing bot - To view the license, please visit the LICENSE file.
+// Simple coding bot - To view the license, please visit the LICENSE file.
 // Credits:
 // - Dead4Now -
 // Github: TheExplodingGiraffe
-// Discord: Dead4Now#3348
+// Discord: Dead4Now#4621
 //-----------------------------------------
 
 // LATEST UPDATE: Edited the help command, so it edits to the prefix you set.
